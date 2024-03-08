@@ -9,7 +9,7 @@ function page() {
       <div className="w-full bg-[#1652f0]  fixed top-0 z-10">
         <div className="header px-4 w-full max-w-6xl mx-auto h-20 grid grid-cols-3">
           <div className="flex w-full items-center justify-between">
-            <div className="">
+            <div className="animate-bounce">
               <Image
                 src="/logo_small.png"
                 alt="logo_small.png"
@@ -19,13 +19,13 @@ function page() {
             </div>
           </div>
           <div className="flex items-center justify-center gap-3">
-            <Link href={"/#"}>
+            <Link href={"https://t.me/DaumenOnBase"}>
               <div className="h-8 w-8 rounded-full hover:bg-black/50 flex items-center justify-center duration-300">
                 <FaTelegramPlane size={20} />
               </div>
             </Link>
 
-            <Link href={"/#"}>
+            <Link href={"https://twitter.com/daumenonbase"}>
               <div className="h-8 w-8 rounded-full hover:bg-black/50 flex items-center justify-center duration-300">
                 <FaTwitter size={20} />
               </div>
@@ -45,7 +45,13 @@ function page() {
         <div className="my-20  pt-[20%] h-[80vh] grid sm:grid-cols-2">
           <div className="">
             <div className="text-2xl font-bold">WELCOME TO</div>
-            <Image alt="image" src={"/text.png"} width={500} height={100} />
+            <Image
+              className=""
+              alt="image"
+              src={"/text.png"}
+              width={500}
+              height={100}
+            />
             <div className="font-semibold">
               Daumenfrosch is a poorly drawn variation of Pepe the Frog. The
               character is often portrayed as the antagonist of Apu Apustaja.
@@ -60,13 +66,13 @@ function page() {
             </div>
           </div>
 
-          <div className="mx-auto">
+          <div className="mx-auto animate-bounce">
             <Image alt="image" src={"/logo.png"} width={300} height={100} />
           </div>
         </div>
 
         <div className="w-full grid sm:grid-cols-2">
-          <div className="mx-auto hidden sm:block">
+          <div className="mx-auto hidden sm:block animate-bounce">
             <Image alt="image" src={"/logo.png"} width={300} height={100} />
           </div>
 
@@ -81,7 +87,7 @@ function page() {
 
             <div className="font-semibold ">Revoked Mint</div>
             <div className="flex items-center ml-auto mt-8">
-              <Link href={"/"}>
+              <Link href={"https://t.me/DaumenOnBase"}>
                 <button className=" ml-auto flex items-center gap-2 item-center uppercase font-bold px-9 py-3 border-[3px] rounded-lg hover:bg-black/20 duration-300">
                   telegram
                   <FaTelegramPlane />
@@ -147,13 +153,13 @@ function page() {
                 enjoys growing popularity.
               </div>
               <div className="flex w-fit mt-4 items-center justify-center gap-3">
-                <Link href={"/#"}>
+                <Link href={"https://twitter.com/daumenonbase"}>
                   <div className="h-8 w-8 rounded-full hover:bg-black/50 flex items-center justify-center duration-300">
                     <FaTelegramPlane size={20} />
                   </div>
                 </Link>
 
-                <Link href={"/#"}>
+                <Link href={"https://twitter.com/daumenonbase"}>
                   <div className="h-8 w-8 rounded-full hover:bg-black/50 flex items-center justify-center duration-300">
                     <FaTwitter size={20} />
                   </div>

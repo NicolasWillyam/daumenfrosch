@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Daumenfrosch",
   description: "Daumenfrosch",
   icons: {
-    icon: logo.src,
+    icon: "/logo.ico",
   },
 };
 
